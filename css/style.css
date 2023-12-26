@@ -1,0 +1,43 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif  ;
+  margin: 0 auto;
+  max-width: 960px;
+}
+
+h1, ul, li, a  {
+  margin: 0px;
+}
+
+.header {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* border: 1px solid red; */
+}
+
+.logo {
+  align-self: center;
+  /* border: 1px solid red; */
+  font-size: 4rem;
+}
+
+.menu {
+  /* border: 1px solid red; */
+  align-self: center;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  list-style: none;
+}
+
+a { 
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px 30px ;
+  background-color: #84e;
+  border-radius: 4px;
+}
